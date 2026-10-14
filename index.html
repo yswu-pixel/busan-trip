@@ -228,7 +228,6 @@ body{
   bottom:90px;
   height:8px;
   background:white;
-  box-shadow:0 3px 8px rgba(0,0,0,.08);
 }
 
 .scene1 .bridge:before,
@@ -266,7 +265,14 @@ body{
 /* DAY 2 */
 
 .scene2{
-  background:linear-gradient(#75C9EE 0%,#D5F2FC 56%,#F7E1A8 57%,#EFD18B 68%,#51B6D9 69%,#218EBE 100%);
+  background:linear-gradient(
+    #75C9EE 0%,
+    #D5F2FC 56%,
+    #F7E1A8 57%,
+    #EFD18B 68%,
+    #51B6D9 69%,
+    #218EBE 100%
+  );
 }
 
 .scene2:before{
@@ -306,7 +312,8 @@ body{
   right:0;
   bottom:0;
   height:210px;
-  background:linear-gradient(145deg,transparent 35%,#72A86B 36% 100%);
+  background:
+    linear-gradient(145deg,transparent 35%,#72A86B 36% 100%);
 }
 
 .house{
@@ -329,7 +336,12 @@ body{
 /* DAY 4 */
 
 .scene4{
-  background:linear-gradient(#7ACCF0 0%,#D9F3FC 60%,#AAD5D6 61%,#78BFC4 100%);
+  background:linear-gradient(
+    #7ACCF0 0%,
+    #D9F3FC 60%,
+    #AAD5D6 61%,
+    #78BFC4 100%
+  );
 }
 
 .scene4:before{
@@ -379,7 +391,6 @@ body{
   right:20%;
   top:55px;
   transform:rotate(-10deg);
-  text-shadow:0 5px 15px rgba(40,100,130,.12);
 }
 
 .scene-caption{
@@ -392,7 +403,10 @@ body{
   color:white;
   font-size:22px;
   font-weight:800;
-  background:linear-gradient(transparent,rgba(20,70,95,.75));
+  background:linear-gradient(
+    transparent,
+    rgba(20,70,95,.75)
+  );
 }
 
 /* ROUTE */
@@ -550,6 +564,7 @@ footer{
 }
 
 @media(max-width:680px){
+
   body{font-size:19px}
 
   .hero{
@@ -570,6 +585,7 @@ footer{
   }
 
   .day{margin-bottom:70px}
+
   .day-header{gap:13px}
 
   .day-badge{
@@ -612,6 +628,7 @@ footer{
 @media(max-width:390px){
   .maps{grid-template-columns:1fr}
 }
+
 </style>
 </head>
 
@@ -636,12 +653,17 @@ footer{
 
 <main class="container">
 
-<!-- DAY 1 -->
+
+<!-- ================= DAY 1 ================= -->
 
 <section class="day" id="day1">
 
 <div class="day-header">
-  <div class="day-badge"><span>DAY</span><strong>1</strong></div>
+  <div class="day-badge">
+    <span>DAY</span>
+    <strong>1</strong>
+  </div>
+
   <div class="day-title">
     <h2>抵達釜山・廣安里宵夜</h2>
     <p>10 月 15 日・星期四</p>
@@ -662,11 +684,22 @@ footer{
 <div class="number">01</div>
 <h3 class="place">✈️ 金海國際機場</h3>
 <div class="korean">김해국제공항</div>
+
 <div class="maps">
-<a class="map-button google" href="https://www.google.com/maps/search/?api=1&query=김해국제공항" target="_blank">📍 Google 地圖</a>
-<a class="map-button naver" href="https://map.naver.com/p/search/김해국제공항" target="_blank">🟢 NAVER 地圖</a>
+<a class="map-button google"
+href="https://www.google.com/maps/search/?api=1&query=김해국제공항"
+target="_blank">
+📍 Google 地圖
+</a>
+
+<a class="map-button naver"
+href="https://map.naver.com/p/search/김해국제공항"
+target="_blank">
+🟢 NAVER 地圖
+</a>
 </div>
 </div>
+
 
 <div class="stop">
 <div class="number">02</div>
@@ -674,13 +707,26 @@ footer{
 <div class="korean">住宿地點</div>
 </div>
 
+
 <div class="stop">
 <div class="number">03</div>
 <h3 class="place">🍗 橋村炸雞・廣安1號店</h3>
 <div class="korean">교촌치킨 광안1호점</div>
+
 <div class="maps">
-<a class="map-button google" href="https://maps.app.goo.gl/fARPpAUzqQ3vLdv46?g_st=ic" target="_blank">📍 Google 地圖</a>
-<a class="map-button naver" href="https://map.naver.com/p/search/교촌치킨%20광안1호점" target="_blank">🟢 NAVER 地圖</a>
+
+<a class="map-button google"
+href="https://maps.app.goo.gl/fARPpAUzqQ3vLdv46?g_st=ic"
+target="_blank">
+📍 Google 地圖
+</a>
+
+<a class="map-button naver"
+href="https://map.naver.com/p/search/교촌치킨%20광안1호점%20무학로%2030-4"
+target="_blank">
+🟢 NAVER 地圖
+</a>
+
 </div>
 </div>
 
@@ -688,123 +734,320 @@ footer{
 </section>
 
 
-<!-- DAY 2 -->
+<!-- ================= DAY 2 ================= -->
 
 <section class="day" id="day2">
 
 <div class="day-header">
-  <div class="day-badge"><span>DAY</span><strong>2</strong></div>
-  <div class="day-title">
-    <h2>廣安里 × 海雲台</h2>
-    <p>10 月 16 日・星期五</p>
-  </div>
+
+<div class="day-badge">
+<span>DAY</span>
+<strong>2</strong>
+</div>
+
+<div class="day-title">
+<h2>廣安里 × 海雲台</h2>
+<p>10 月 16 日・星期五</p>
+</div>
+
 </div>
 
 <div class="scenery scene2">
-  <div class="scene-caption">廣安里 × 海雲台</div>
+<div class="scene-caption">廣安里 × 海雲台</div>
 </div>
 
 <div class="route">
 
+
 <div class="stop">
 <div class="number">01</div>
-<h3 class="place">🍲 陽平醒酒湯・排骨醒酒湯本店</h3>
-<div class="korean">양평 해장국 &amp; 뼈다귀 해장국 본점</div>
+
+<h3 class="place">
+🍲 陽平醒酒湯・排骨醒酒湯本店
+</h3>
+
+<div class="korean">
+양평 해장국 &amp; 뼈다귀 해장국 본점
+</div>
+
 <div class="maps">
-<a class="map-button google" href="https://maps.app.goo.gl/4TGy3FhrAm5xQXoj7?g_st=ic" target="_blank">📍 Google 地圖</a>
-<a class="map-button naver" href="https://map.naver.com/p/search/양평%20해장국%20뼈다귀%20해장국%20본점" target="_blank">🟢 NAVER 地圖</a>
+
+<a class="map-button google"
+href="https://maps.app.goo.gl/4TGy3FhrAm5xQXoj7?g_st=ic"
+target="_blank">
+📍 Google 地圖
+</a>
+
+<a class="map-button naver"
+href="https://map.naver.com/p/search/양평해장국%20광일로%206"
+target="_blank">
+🟢 NAVER 地圖
+</a>
+
 </div>
 </div>
+
 
 <div class="stop">
 <div class="number">02</div>
-<h3 class="place">☕ Momos Coffee</h3>
-<div class="korean">모모스커피</div>
+
+<h3 class="place">
+☕ Momos Coffee・Marine City
+</h3>
+
+<div class="korean">
+모모스커피 마린시티점
+</div>
+
 <div class="maps">
-<a class="map-button google" href="https://maps.app.goo.gl/K3ufQPc9nKLqxiZf6?g_st=" target="_blank">📍 Google 地圖</a>
-<a class="map-button naver" href="https://map.naver.com/p/search/모모스커피" target="_blank">🟢 NAVER 地圖</a>
+
+<a class="map-button google"
+href="https://maps.app.goo.gl/K3ufQPc9nKLqxiZf6?g_st="
+target="_blank">
+📍 Google 地圖
+</a>
+
+<a class="map-button naver"
+href="https://map.naver.com/p/search/모모스커피%20마린시티점"
+target="_blank">
+🟢 NAVER 地圖
+</a>
+
 </div>
 </div>
+
 
 <div class="stop">
 <div class="number">03</div>
-<h3 class="place">🌊 廣安里海水浴場</h3>
-<div class="korean">광안리해수욕장</div>
+
+<h3 class="place">
+🌊 廣安里海水浴場
+</h3>
+
+<div class="korean">
+광안리해수욕장
+</div>
+
 <div class="maps">
-<a class="map-button google" href="https://www.google.com/maps/search/?api=1&query=광안리해수욕장" target="_blank">📍 Google 地圖</a>
-<a class="map-button naver" href="https://map.naver.com/p/search/광안리해수욕장" target="_blank">🟢 NAVER 地圖</a>
+
+<a class="map-button google"
+href="https://www.google.com/maps/search/?api=1&query=광안리해수욕장"
+target="_blank">
+📍 Google 地圖
+</a>
+
+<a class="map-button naver"
+href="https://map.naver.com/p/search/광안리해수욕장"
+target="_blank">
+🟢 NAVER 地圖
+</a>
+
 </div>
 </div>
+
 
 <div class="stop">
 <div class="number">04</div>
-<h3 class="place">🥩 烤肋排</h3>
-<div class="korean">갈비</div>
+
+<h3 class="place">
+🥩 五花肋排樂
+</h3>
+
+<div class="korean">
+오쪽이락 광안본점
+</div>
+
 <div class="maps">
-<a class="map-button google" href="https://maps.app.goo.gl/HyGn5DhbfUBqfGjn7?g_st=ic" target="_blank">📍 Google 地圖</a>
-<a class="map-button naver" href="https://map.naver.com/p/search/갈비%20부산" target="_blank">🟢 NAVER 地圖</a>
+
+<a class="map-button google"
+href="https://maps.app.goo.gl/HyGn5DhbfUBqfGjn7?g_st=ic"
+target="_blank">
+📍 Google 地圖
+</a>
+
+<a class="map-button naver"
+href="https://map.naver.com/p/search/오쪽이락%20광안본점"
+target="_blank">
+🟢 NAVER 地圖
+</a>
+
 </div>
 </div>
+
 
 <div class="stop">
 <div class="number">05</div>
-<h3 class="place">🛍️ 海雲台傳統市場</h3>
-<div class="korean">해운대전통시장</div>
+
+<h3 class="place">
+🛍️ 海雲台傳統市場
+</h3>
+
+<div class="korean">
+해운대전통시장
+</div>
+
 <div class="maps">
-<a class="map-button google" href="https://www.google.com/maps/search/?api=1&query=해운대전통시장" target="_blank">📍 Google 地圖</a>
-<a class="map-button naver" href="https://map.naver.com/p/search/해운대전통시장" target="_blank">🟢 NAVER 地圖</a>
+
+<a class="map-button google"
+href="https://www.google.com/maps/search/?api=1&query=해운대전통시장"
+target="_blank">
+📍 Google 地圖
+</a>
+
+<a class="map-button naver"
+href="https://map.naver.com/p/search/해운대전통시장"
+target="_blank">
+🟢 NAVER 地圖
+</a>
+
 </div>
 </div>
+
 
 <div class="stop">
 <div class="number">06</div>
-<h3 class="place">🥐 自然島鹽麵包</h3>
-<div class="korean">자연도소금빵 해운대</div>
+
+<h3 class="place">
+🥐 自然島鹽麵包
+</h3>
+
+<div class="korean">
+자연도소금빵 해운대
+</div>
+
 <div class="maps">
-<a class="map-button google" href="https://www.google.com/maps/search/?api=1&query=자연도소금빵+해운대" target="_blank">📍 Google 地圖</a>
-<a class="map-button naver" href="https://map.naver.com/p/search/자연도소금빵%20해운대" target="_blank">🟢 NAVER 地圖</a>
+
+<a class="map-button google"
+href="https://www.google.com/maps/search/?api=1&query=자연도소금빵+해운대"
+target="_blank">
+📍 Google 地圖
+</a>
+
+<a class="map-button naver"
+href="https://map.naver.com/p/search/자연도소금빵%20해운대"
+target="_blank">
+🟢 NAVER 地圖
+</a>
+
 </div>
 </div>
+
 
 <div class="stop">
 <div class="number">07</div>
-<h3 class="place">☕ TIDE Coffee Roasters</h3>
-<div class="korean">타이드 커피 로스터스</div>
+
+<h3 class="place">
+☕ TIDE Coffee Roasters
+</h3>
+
+<div class="korean">
+타이드 커피 로스터스
+</div>
+
 <div class="maps">
-<a class="map-button google" href="https://maps.app.goo.gl/1wAoiyLzXAebw53E8?g_st=ic" target="_blank">📍 Google 地圖</a>
-<a class="map-button naver" href="https://map.naver.com/p/search/타이드%20커피%20로스터스" target="_blank">🟢 NAVER 地圖</a>
+
+<a class="map-button google"
+href="https://maps.app.goo.gl/1wAoiyLzXAebw53E8?g_st=ic"
+target="_blank">
+📍 Google 地圖
+</a>
+
+<a class="map-button naver"
+href="https://map.naver.com/p/search/타이드%20커피%20로스터스%20달맞이길62번길%2053"
+target="_blank">
+🟢 NAVER 地圖
+</a>
+
 </div>
 </div>
+
 
 <div class="stop">
 <div class="number">08</div>
-<h3 class="place">🚃 海雲台藍線公園・尾浦站</h3>
-<div class="korean">해운대블루라인파크 미포정거장</div>
+
+<h3 class="place">
+🚃 海雲台藍線公園・尾浦站
+</h3>
+
+<div class="korean">
+해운대블루라인파크 미포정거장
+</div>
+
 <div class="maps">
-<a class="map-button google" href="https://www.google.com/maps/search/?api=1&query=해운대블루라인파크+미포정거장" target="_blank">📍 Google 地圖</a>
-<a class="map-button naver" href="https://map.naver.com/p/search/해운대블루라인파크%20미포정거장" target="_blank">🟢 NAVER 地圖</a>
+
+<a class="map-button google"
+href="https://www.google.com/maps/search/?api=1&query=해운대블루라인파크+미포정거장"
+target="_blank">
+📍 Google 地圖
+</a>
+
+<a class="map-button naver"
+href="https://map.naver.com/p/search/해운대블루라인파크%20미포정거장"
+target="_blank">
+🟢 NAVER 地圖
+</a>
+
 </div>
 </div>
+
 
 <div class="stop">
 <div class="number">09</div>
-<h3 class="place">🚃 海雲台藍線公園・松亭站</h3>
-<div class="korean">해운대블루라인파크 송정정거장</div>
+
+<h3 class="place">
+🚃 海雲台藍線公園・松亭站
+</h3>
+
+<div class="korean">
+해운대블루라인파크 송정정거장
+</div>
+
 <div class="maps">
-<a class="map-button google" href="https://www.google.com/maps/search/?api=1&query=해운대블루라인파크+송정정거장" target="_blank">📍 Google 地圖</a>
-<a class="map-button naver" href="https://map.naver.com/p/search/해운대블루라인파크%20송정정거장" target="_blank">🟢 NAVER 地圖</a>
+
+<a class="map-button google"
+href="https://www.google.com/maps/search/?api=1&query=해운대블루라인파크+송정정거장"
+target="_blank">
+📍 Google 地圖
+</a>
+
+<a class="map-button naver"
+href="https://map.naver.com/p/search/해운대블루라인파크%20송정정거장"
+target="_blank">
+🟢 NAVER 地圖
+</a>
+
 </div>
 </div>
 
+
 <div class="stop">
 <div class="number">10</div>
-<h3 class="place">🌃 The Bay 101</h3>
-<div class="korean">더베이101</div>
+
+<h3 class="place">
+🌃 The Bay 101
+</h3>
+
+<div class="korean">
+더베이101
+</div>
+
 <div class="maps">
-<a class="map-button google" href="https://www.google.com/maps/search/?api=1&query=더베이101" target="_blank">📍 Google 地圖</a>
-<a class="map-button naver" href="https://map.naver.com/p/search/더베이101" target="_blank">🟢 NAVER 地圖</a>
+
+<a class="map-button google"
+href="https://www.google.com/maps/search/?api=1&query=더베이101"
+target="_blank">
+📍 Google 地圖
+</a>
+
+<a class="map-button naver"
+href="https://map.naver.com/p/search/더베이101"
+target="_blank">
+🟢 NAVER 地圖
+</a>
+
 </div>
 </div>
+
 
 <div class="stop">
 <div class="number">11</div>
@@ -815,20 +1058,29 @@ footer{
 </section>
 
 
-<!-- DAY 3 -->
+<!-- ================= DAY 3 ================= -->
 
 <section class="day" id="day3">
 
 <div class="day-header">
-<div class="day-badge"><span>DAY</span><strong>3</strong></div>
+
+<div class="day-badge">
+<span>DAY</span>
+<strong>3</strong>
+</div>
+
 <div class="day-title">
 <h2>南浦洞 × 甘川洞 × 松島</h2>
 <p>10 月 17 日・星期六</p>
 </div>
+
 </div>
 
+
 <div class="scenery scene3">
+
 <div class="houses"></div>
+
 <div class="house h1"></div>
 <div class="house h2"></div>
 <div class="house h3"></div>
@@ -837,285 +1089,682 @@ footer{
 <div class="house h6"></div>
 <div class="house h7"></div>
 <div class="house h8"></div>
-<div class="scene-caption">南浦洞 × 甘川洞 × 松島</div>
+
+<div class="scene-caption">
+南浦洞 × 甘川洞 × 松島
 </div>
+
+</div>
+
 
 <div class="route">
 
+
 <div class="stop">
 <div class="number">01</div>
-<h3 class="place">🍙 南浦洞忠武飯捲街</h3>
-<div class="korean">남포동 충무김밥 골목</div>
+
+<h3 class="place">
+🍙 南浦洞忠武飯捲街
+</h3>
+
+<div class="korean">
+남포동 충무김밥 골목
+</div>
+
 <div class="maps">
-<a class="map-button google" href="https://www.google.com/maps/search/?api=1&query=남포동+충무김밥+골목+부산" target="_blank">📍 Google 地圖</a>
-<a class="map-button naver" href="https://map.naver.com/p/search/남포동%20충무김밥%20골목" target="_blank">🟢 NAVER 地圖</a>
+
+<a class="map-button google"
+href="https://www.google.com/maps/search/?api=1&query=남포동+충무김밥+골목+부산"
+target="_blank">
+📍 Google 地圖
+</a>
+
+<a class="map-button naver"
+href="https://map.naver.com/p/search/남포동%20충무김밥%20골목"
+target="_blank">
+🟢 NAVER 地圖
+</a>
+
 </div>
 </div>
+
 
 <div class="stop">
 <div class="number">02</div>
-<h3 class="place">🌶️ 李家辣年糕</h3>
-<div class="korean">이가네떡볶이</div>
+
+<h3 class="place">
+🌶️ 李家辣年糕
+</h3>
+
+<div class="korean">
+이가네떡볶이
+</div>
+
 <div class="maps">
-<a class="map-button google" href="https://www.google.com/maps/search/?api=1&query=이가네떡볶이+부산" target="_blank">📍 Google 地圖</a>
-<a class="map-button naver" href="https://map.naver.com/p/search/이가네떡볶이" target="_blank">🟢 NAVER 地圖</a>
+
+<a class="map-button google"
+href="https://www.google.com/maps/search/?api=1&query=이가네떡볶이+부산"
+target="_blank">
+📍 Google 地圖
+</a>
+
+<a class="map-button naver"
+href="https://map.naver.com/p/search/이가네떡볶이"
+target="_blank">
+🟢 NAVER 地圖
+</a>
+
 </div>
 </div>
+
 
 <div class="stop">
 <div class="number">03</div>
-<h3 class="place">🛒 富平罐頭市場</h3>
-<div class="korean">부평깡통시장</div>
+
+<h3 class="place">
+🛒 富平罐頭市場
+</h3>
+
+<div class="korean">
+부평깡통시장
+</div>
+
 <div class="maps">
-<a class="map-button google" href="https://www.google.com/maps/search/?api=1&query=부평깡통시장" target="_blank">📍 Google 地圖</a>
-<a class="map-button naver" href="https://map.naver.com/p/search/부평깡통시장" target="_blank">🟢 NAVER 地圖</a>
+
+<a class="map-button google"
+href="https://www.google.com/maps/search/?api=1&query=부평깡통시장"
+target="_blank">
+📍 Google 地圖
+</a>
+
+<a class="map-button naver"
+href="https://map.naver.com/p/search/부평깡통시장"
+target="_blank">
+🟢 NAVER 地圖
+</a>
+
 </div>
 </div>
+
 
 <div class="stop">
 <div class="number">04</div>
-<h3 class="place">🎨 甘川洞文化村・天頂展望台</h3>
-<div class="korean">감천문화마을 하늘마루 전망대</div>
+
+<h3 class="place">
+🎨 甘川洞文化村・天頂展望台
+</h3>
+
+<div class="korean">
+감천문화마을 하늘마루 전망대
+</div>
+
 <div class="maps">
-<a class="map-button google" href="https://www.google.com/maps/search/?api=1&query=감천문화마을+하늘마루+전망대" target="_blank">📍 Google 地圖</a>
-<a class="map-button naver" href="https://map.naver.com/p/search/감천문화마을%20하늘마루%20전망대" target="_blank">🟢 NAVER 地圖</a>
+
+<a class="map-button google"
+href="https://www.google.com/maps/search/?api=1&query=감천문화마을+하늘마루+전망대"
+target="_blank">
+📍 Google 地圖
+</a>
+
+<a class="map-button naver"
+href="https://map.naver.com/p/search/감천문화마을%20하늘마루%20전망대"
+target="_blank">
+🟢 NAVER 地圖
+</a>
+
 </div>
 </div>
+
 
 <div class="stop">
 <div class="number">05</div>
-<h3 class="place">🐟 札嘎其市場</h3>
-<div class="korean">자갈치시장</div>
+
+<h3 class="place">
+🐟 札嘎其市場
+</h3>
+
+<div class="korean">
+자갈치시장
+</div>
+
 <div class="maps">
-<a class="map-button google" href="https://www.google.com/maps/search/?api=1&query=자갈치시장" target="_blank">📍 Google 地圖</a>
-<a class="map-button naver" href="https://map.naver.com/p/search/자갈치시장" target="_blank">🟢 NAVER 地圖</a>
+
+<a class="map-button google"
+href="https://www.google.com/maps/search/?api=1&query=자갈치시장"
+target="_blank">
+📍 Google 地圖
+</a>
+
+<a class="map-button naver"
+href="https://map.naver.com/p/search/자갈치시장"
+target="_blank">
+🟢 NAVER 地圖
+</a>
+
 </div>
 </div>
+
 
 <div class="stop">
 <div class="number">06</div>
-<h3 class="place">🚡 松島海上纜車</h3>
-<div class="korean">송도해상케이블카 송도베이스테이션</div>
+
+<h3 class="place">
+🚡 松島海上纜車
+</h3>
+
+<div class="korean">
+송도해상케이블카 송도베이스테이션
+</div>
+
 <div class="maps">
-<a class="map-button google" href="https://www.google.com/maps/search/?api=1&query=송도해상케이블카+송도베이스테이션" target="_blank">📍 Google 地圖</a>
-<a class="map-button naver" href="https://map.naver.com/p/search/송도해상케이블카" target="_blank">🟢 NAVER 地圖</a>
+
+<a class="map-button google"
+href="https://www.google.com/maps/search/?api=1&query=송도해상케이블카+송도베이스테이션"
+target="_blank">
+📍 Google 地圖
+</a>
+
+<a class="map-button naver"
+href="https://map.naver.com/p/search/송도해상케이블카"
+target="_blank">
+🟢 NAVER 地圖
+</a>
+
 </div>
 </div>
+
 
 <div class="stop">
 <div class="number">07</div>
-<h3 class="place">🌊 白淺灘文化村</h3>
-<div class="korean">흰여울문화마을</div>
+
+<h3 class="place">
+🌊 白淺灘文化村
+</h3>
+
+<div class="korean">
+흰여울문화마을
+</div>
+
 <div class="maps">
-<a class="map-button google" href="https://www.google.com/maps/search/?api=1&query=흰여울문화마을" target="_blank">📍 Google 地圖</a>
-<a class="map-button naver" href="https://map.naver.com/p/search/흰여울문화마을" target="_blank">🟢 NAVER 地圖</a>
+
+<a class="map-button google"
+href="https://www.google.com/maps/search/?api=1&query=흰여울문화마을"
+target="_blank">
+📍 Google 地圖
+</a>
+
+<a class="map-button naver"
+href="https://map.naver.com/p/search/흰여울문화마을"
+target="_blank">
+🟢 NAVER 地圖
+</a>
+
 </div>
 </div>
+
 
 <div class="stop">
 <div class="number">08</div>
-<h3 class="place">🥞 昇基堅果黑糖餅</h3>
-<div class="korean">승기씨앗호떡</div>
+
+<h3 class="place">
+🥞 昇基堅果黑糖餅
+</h3>
+
+<div class="korean">
+승기씨앗호떡
+</div>
+
 <div class="maps">
-<a class="map-button google" href="https://www.google.com/maps/search/?api=1&query=승기씨앗호떡+부산" target="_blank">📍 Google 地圖</a>
-<a class="map-button naver" href="https://map.naver.com/p/search/승기씨앗호떡" target="_blank">🟢 NAVER 地圖</a>
+
+<a class="map-button google"
+href="https://www.google.com/maps/search/?api=1&query=승기씨앗호떡+부산"
+target="_blank">
+📍 Google 地圖
+</a>
+
+<a class="map-button naver"
+href="https://map.naver.com/p/search/승기씨앗호떡"
+target="_blank">
+🟢 NAVER 地圖
+</a>
+
 </div>
 </div>
+
 
 <div class="stop">
 <div class="number">09</div>
-<h3 class="place">🥩 味贊王鹽烤肉・富平店</h3>
-<div class="korean">맛찬들왕소금구이 부평점</div>
+
+<h3 class="place">
+🥩 味贊王鹽烤肉・富平店
+</h3>
+
+<div class="korean">
+맛찬들왕소금구이 부평점
+</div>
+
 <div class="maps">
-<a class="map-button google" href="https://www.google.com/maps/search/?api=1&query=맛찬들왕소금구이+부평점" target="_blank">📍 Google 地圖</a>
-<a class="map-button naver" href="https://map.naver.com/p/search/맛찬들왕소금구이%20부평점" target="_blank">🟢 NAVER 地圖</a>
+
+<a class="map-button google"
+href="https://www.google.com/maps/search/?api=1&query=맛찬들왕소금구이+부평점"
+target="_blank">
+📍 Google 地圖
+</a>
+
+<a class="map-button naver"
+href="https://map.naver.com/p/search/맛찬들왕소금구이%20부평점"
+target="_blank">
+🟢 NAVER 地圖
+</a>
+
 </div>
 </div>
 
+
 <div class="stop">
 <div class="number">10</div>
-<h3 class="place">🍽️ 먹때돼</h3>
-<div class="korean">먹때돼</div>
+
+<h3 class="place">
+🍽️ 먹때돼
+</h3>
+
+<div class="korean">
+먹때돼
+</div>
+
 <div class="maps">
-<a class="map-button google" href="https://www.google.com/maps/search/?api=1&query=먹때돼+부산" target="_blank">📍 Google 地圖</a>
-<a class="map-button naver" href="https://map.naver.com/p/search/먹때돼%20부산" target="_blank">🟢 NAVER 地圖</a>
+
+<a class="map-button google"
+href="https://www.google.com/maps/search/?api=1&query=먹때돼+부산"
+target="_blank">
+📍 Google 地圖
+</a>
+
+<a class="map-button naver"
+href="https://map.naver.com/p/search/먹때돼%20부산"
+target="_blank">
+🟢 NAVER 地圖
+</a>
+
 </div>
 </div>
+
 
 <div class="stop">
 <div class="number">11</div>
 <h3 class="place">🏠 返回韓屋名宿</h3>
 </div>
 
+
 </div>
 </section>
 
 
-<!-- DAY 4 -->
+<!-- ================= DAY 4 ================= -->
 
 <section class="day" id="day4">
 
 <div class="day-header">
-<div class="day-badge"><span>DAY</span><strong>4</strong></div>
+
+<div class="day-badge">
+<span>DAY</span>
+<strong>4</strong>
+</div>
+
 <div class="day-title">
 <h2>田浦 × Centum City</h2>
 <p>10 月 18 日・星期日</p>
 </div>
+
 </div>
 
+
 <div class="scenery scene4">
-<div class="scene-caption">田浦 × Centum City</div>
+<div class="scene-caption">
+田浦 × Centum City
 </div>
+</div>
+
 
 <div class="route">
 
+
 <div class="stop">
 <div class="number">01</div>
-<h3 class="place">☕ 田浦咖啡街</h3>
-<div class="korean">전포카페거리</div>
+
+<h3 class="place">
+☕ 田浦咖啡街
+</h3>
+
+<div class="korean">
+전포카페거리
+</div>
+
 <div class="maps">
-<a class="map-button google" href="https://www.google.com/maps/search/?api=1&query=전포카페거리" target="_blank">📍 Google 地圖</a>
-<a class="map-button naver" href="https://map.naver.com/p/search/전포카페거리" target="_blank">🟢 NAVER 地圖</a>
+
+<a class="map-button google"
+href="https://www.google.com/maps/search/?api=1&query=전포카페거리"
+target="_blank">
+📍 Google 地圖
+</a>
+
+<a class="map-button naver"
+href="https://map.naver.com/p/search/전포카페거리"
+target="_blank">
+🟢 NAVER 地圖
+</a>
+
 </div>
 </div>
+
 
 <div class="stop">
 <div class="number">02</div>
-<h3 class="place">🍲 松亭3代豬肉湯飯</h3>
-<div class="korean">송정3대국밥</div>
+
+<h3 class="place">
+🍲 松亭3代豬肉湯飯
+</h3>
+
+<div class="korean">
+송정3대국밥
+</div>
+
 <div class="maps">
-<a class="map-button google" href="https://www.google.com/maps/search/?api=1&query=송정3대국밥+부산" target="_blank">📍 Google 地圖</a>
-<a class="map-button naver" href="https://map.naver.com/p/search/송정3대국밥" target="_blank">🟢 NAVER 地圖</a>
+
+<a class="map-button google"
+href="https://www.google.com/maps/search/?api=1&query=송정3대국밥+부산"
+target="_blank">
+📍 Google 地圖
+</a>
+
+<a class="map-button naver"
+href="https://map.naver.com/p/search/송정3대국밥"
+target="_blank">
+🟢 NAVER 地圖
+</a>
+
 </div>
 </div>
+
 
 <div class="stop">
 <div class="number">03</div>
-<h3 class="place">🛍️ 新世界百貨・Centum City</h3>
-<div class="korean">신세계백화점 센텀시티점</div>
+
+<h3 class="place">
+🛍️ 新世界百貨・Centum City
+</h3>
+
+<div class="korean">
+신세계백화점 센텀시티점
+</div>
+
 <div class="maps">
-<a class="map-button google" href="https://www.google.com/maps/search/?api=1&query=신세계백화점+센텀시티점" target="_blank">📍 Google 地圖</a>
-<a class="map-button naver" href="https://map.naver.com/p/search/신세계백화점%20센텀시티점" target="_blank">🟢 NAVER 地圖</a>
+
+<a class="map-button google"
+href="https://www.google.com/maps/search/?api=1&query=신세계백화점+센텀시티점"
+target="_blank">
+📍 Google 地圖
+</a>
+
+<a class="map-button naver"
+href="https://map.naver.com/p/search/신세계백화점%20센텀시티점"
+target="_blank">
+🟢 NAVER 地圖
+</a>
+
 </div>
 </div>
+
 
 <div class="stop">
 <div class="number">04</div>
-<h3 class="place">♨️ SPA LAND 汗蒸幕</h3>
-<div class="korean">스파랜드 센텀시티</div>
+
+<h3 class="place">
+♨️ SPA LAND 汗蒸幕
+</h3>
+
+<div class="korean">
+스파랜드 센텀시티
+</div>
+
 <div class="maps">
-<a class="map-button google" href="https://www.google.com/maps/search/?api=1&query=스파랜드+센텀시티" target="_blank">📍 Google 地圖</a>
-<a class="map-button naver" href="https://map.naver.com/p/search/스파랜드%20센텀시티" target="_blank">🟢 NAVER 地圖</a>
+
+<a class="map-button google"
+href="https://www.google.com/maps/search/?api=1&query=스파랜드+센텀시티"
+target="_blank">
+📍 Google 地圖
+</a>
+
+<a class="map-button naver"
+href="https://map.naver.com/p/search/스파랜드%20센텀시티"
+target="_blank">
+🟢 NAVER 地圖
+</a>
+
 </div>
 </div>
+
 
 <div class="stop">
 <div class="number">05</div>
-<h3 class="place">🐟 萬船生魚片</h3>
-<div class="korean">만선횟집</div>
-<div class="warning">⚠ 釜山有多家同名餐廳，請確認分店</div>
+
+<h3 class="place">
+🐟 萬船生魚片
+</h3>
+
+<div class="korean">
+만선횟집
+</div>
+
+<div class="warning">
+⚠ 釜山有多家同名餐廳，請確認分店
+</div>
+
 <div class="maps">
-<a class="map-button google" href="https://www.google.com/maps/search/?api=1&query=만선횟집+부산" target="_blank">📍 Google 地圖</a>
-<a class="map-button naver" href="https://map.naver.com/p/search/만선횟집%20부산" target="_blank">🟢 NAVER 地圖</a>
+
+<a class="map-button google"
+href="https://www.google.com/maps/search/?api=1&query=만선횟집+부산"
+target="_blank">
+📍 Google 地圖
+</a>
+
+<a class="map-button naver"
+href="https://map.naver.com/p/search/만선횟집%20부산"
+target="_blank">
+🟢 NAVER 地圖
+</a>
+
 </div>
 </div>
 
+
 <div class="stop">
 <div class="number">06</div>
-<h3 class="place">🏠 返回韓屋名宿</h3>
+<h3 class="place">
+🏠 返回韓屋名宿
+</h3>
 </div>
+
 
 </div>
 </section>
 
 
-<!-- DAY 5 -->
+<!-- ================= DAY 5 ================= -->
 
 <section class="day" id="day5">
 
 <div class="day-header">
-<div class="day-badge"><span>DAY</span><strong>5</strong></div>
+
+<div class="day-badge">
+<span>DAY</span>
+<strong>5</strong>
+</div>
+
 <div class="day-title">
 <h2>最後一天・準備返程</h2>
 <p>10 月 19 日・星期一</p>
 </div>
+
 </div>
 
+
 <div class="scenery scene5">
-<div class="scene-caption">最後一天・釜山再見</div>
+<div class="scene-caption">
+最後一天・釜山再見
 </div>
+</div>
+
 
 <div class="route">
 
+
 <div class="stop">
 <div class="number">01</div>
-<h3 class="place">🏠 韓屋名宿</h3>
+
+<h3 class="place">
+🏠 韓屋名宿
+</h3>
+
 </div>
+
 
 <div class="stop">
 <div class="number">02</div>
-<h3 class="place">🍲 水營豬肉湯飯</h3>
-<div class="korean">수영돼지국밥</div>
+
+<h3 class="place">
+🍲 水營豬肉湯飯
+</h3>
+
+<div class="korean">
+수영돼지국밥
+</div>
+
 <div class="maps">
-<a class="map-button google" href="https://www.google.com/maps/search/?api=1&query=수영돼지국밥+부산" target="_blank">📍 Google 地圖</a>
-<a class="map-button naver" href="https://map.naver.com/p/search/수영돼지국밥" target="_blank">🟢 NAVER 地圖</a>
+
+<a class="map-button google"
+href="https://www.google.com/maps/search/?api=1&query=수영돼지국밥+부산"
+target="_blank">
+📍 Google 地圖
+</a>
+
+<a class="map-button naver"
+href="https://map.naver.com/p/search/수영돼지국밥"
+target="_blank">
+🟢 NAVER 地圖
+</a>
+
 </div>
 </div>
 
+
 <div class="stop">
 <div class="number">03</div>
-<h3 class="place">✈️ 金海國際機場</h3>
-<div class="korean">김해국제공항</div>
+
+<h3 class="place">
+✈️ 金海國際機場
+</h3>
+
+<div class="korean">
+김해국제공항
+</div>
+
 <div class="maps">
-<a class="map-button google" href="https://www.google.com/maps/search/?api=1&query=김해국제공항" target="_blank">📍 Google 地圖</a>
-<a class="map-button naver" href="https://map.naver.com/p/search/김해국제공항" target="_blank">🟢 NAVER 地圖</a>
+
+<a class="map-button google"
+href="https://www.google.com/maps/search/?api=1&query=김해국제공항"
+target="_blank">
+📍 Google 地圖
+</a>
+
+<a class="map-button naver"
+href="https://map.naver.com/p/search/김해국제공항"
+target="_blank">
+🟢 NAVER 地圖
+</a>
+
 </div>
 </div>
+
 
 </div>
 </section>
 
 
+<!-- ================= CHICTRIP ================= -->
+
 <section class="chictrip">
+
 <h2>去趣完整行程</h2>
-<p>查看原始行程與其他旅遊資訊</p>
-<a href="https://chictrip-share.app.link/np3GA9kEd7b" target="_blank">
+
+<p>
+查看原始行程與其他旅遊資訊
+</p>
+
+<a
+href="https://chictrip-share.app.link/np3GA9kEd7b"
+target="_blank">
 開啟去趣行程 ↗
 </a>
+
 </section>
 
 </main>
 
+
 <footer>
-BUSAN · OCTOBER 2026<br>
+
+BUSAN · OCTOBER 2026
+<br>
 Have a lovely trip ♡
+
 </footer>
 
-<button class="top-button"
+
+<button
+class="top-button"
 onclick="window.scrollTo({top:0,behavior:'smooth'})">
 ↑ 回頂部
 </button>
 
-<script>
-const navLinks=document.querySelectorAll(".day-nav a");
-const sections=document.querySelectorAll(".day");
 
-const observer=new IntersectionObserver(entries=>{
+<script>
+
+const navLinks =
+document.querySelectorAll(".day-nav a");
+
+const sections =
+document.querySelectorAll(".day");
+
+const observer =
+new IntersectionObserver(entries=>{
+
   entries.forEach(entry=>{
+
     if(entry.isIntersecting){
+
       navLinks.forEach(link=>{
+
         link.classList.toggle(
           "active",
-          link.getAttribute("href")==="#"+entry.target.id
+          link.getAttribute("href")
+          ==="#"+entry.target.id
         );
+
       });
+
     }
+
   });
+
 },{
   rootMargin:"-20% 0px -65% 0px"
 });
 
-sections.forEach(section=>observer.observe(section));
+sections.forEach(
+  section=>observer.observe(section)
+);
+
 </script>
 
 </body>
